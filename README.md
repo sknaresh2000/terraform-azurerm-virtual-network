@@ -23,7 +23,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_address_space"></a> [address\_space](#input\_address\_space) | The address space of the virtual network | `list(string)` | n/a | yes |
-| <a name="input_dns_servers"></a> [dns\_servers](#input\_dns\_servers) | DNS server details incase of using custom dns servers | `list(string)` | n/a | yes |
+| <a name="input_dns_servers"></a> [dns\_servers](#input\_dns\_servers) | DNS server details incase of using custom dns servers. Default is Azure DNS servers | `list(string)` | `null` | no |
 | <a name="input_location"></a> [location](#input\_location) | The Azure region where the virtual network should exist. Changing this forces a new resource to be created. | `string` | `"eastus"` | no |
 | <a name="input_name"></a> [name](#input\_name) | The name of the virtual network to create | `string` | n/a | yes |
 | <a name="input_rg_name"></a> [rg\_name](#input\_rg\_name) | The name of the resource group where this virtual network needs to reside | `string` | n/a | yes |

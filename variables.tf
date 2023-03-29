@@ -22,7 +22,7 @@ variable "address_space" {
 variable "dns_servers" {
   type        = list(string)
   description = "DNS server details incase of using custom dns servers. Default is Azure DNS servers"
-  default = null
+  default     = null
 }
 
 variable "tags" {

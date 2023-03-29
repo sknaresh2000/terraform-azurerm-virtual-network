@@ -33,4 +33,5 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_id"></a> [id](#output\_id) | The ID of the created virtual network |
 | <a name="output_name"></a> [name](#output\_name) | The name of the virtual network |
